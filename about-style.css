@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+body{
+    background: #f6f6f663;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+.container{
+    position: absolute;
+    width: 80%;
+    /* margin: auto; */
+    top: 380px;
+    left: 170px;
+}
+
+
+header .logo{
+    position: relative;
+    position: absolute;
+    z-index: 100;
+    display: inline-block;
+    top: 245px;
+    left: 50px;
+}
+header .logo img{
+    display: inline-block;
+    width: 60px;
+}
+header .logo span{
+    position: absolute;
+    width: 300px;
+    display: inline-block;
+    color: white;
+    margin-left: 15px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 40px;
+    text-transform: capitalize;
+}
+nav {
+    position: relative;
+    text-transform: capitalize;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+nav ul {
+    position: absolute;
+    color: white;
+    top: 270px;
+    right: 15px;
+    
+}
+nav ul li {
+    display: inline-block;
+    font-size: 21px;
+    margin-right: 40px;
+}
+nav img{
+    position: absolute;
+    width: 100%;
+    height: 335px;
+}
+ header nav ul li a::after {
+    content: " ";
+    display: block;
+    height: 2px;
+    background-color: white;
+    transition: width 0.5s; 
+}
+ header nav ul li:nth-child(2) a::after{
+    width: 100%;
+}
+  header nav ul li a::after{
+    width: 0;
+}
+ nav ul li a:hover:after{
+   width: 100%;
+}
+.about h1{
+    text-align: center;
+    text-transform: capitalize;
+
+
+}
+.about .about-desc{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 19px;
+    color: #aa7f7f;
+    
+
+}
+.personal-information{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 50px 0px;
+    margin-bottom: 30px;
+    
+}
+
+
+.personal-information-item img{
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 45px;
+}
+
+.personal-information-item .caption{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+}
+.food-desc{
+    font-size: 18px;
+    font-family: serif;
+    color: #aa7f7f;
+}
+.caption h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.about-image img{
+    width: 100%;
+}
+.image-about{
+    margin: 50px 0;
+}
+.image-about-left{
+    display: inline-block;
+    width: 50%;
+}
+.image-about-left img{
+    width: 100%;
+    margin-top: 45px;
+}
+.image-about-right{
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1.6;
+    margin-left: 35px;
+
+}
