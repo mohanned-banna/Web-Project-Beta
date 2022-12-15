@@ -173,6 +173,14 @@ address{
     margin-top: 50px;
     margin-left: 160px;
 }
+address a{
+    color: #aa7f7f;
+    
+}
+address a:hover{
+    text-decoration: underline;
+    
+}
 .last{
     width: 60%;
     margin: 150px auto 60px;
