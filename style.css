@@ -117,23 +117,36 @@ nav img{
     grid-gap: 35px 115px;
 }
 .apple-section img{
-    width: 250px;
-    
+    width: 205px;
+    /* margin-left: 5px; */
     
 }
 .apple-section-item{
-    width: 255px;
+    padding: 15px;
+    width: 240px;
+    transition:  border 0.5s , box-shadow 0.5s;
+    -webkit-transition:  border 0.5s , box-shadow 0.5s;
+    -moz-transition:  border 0.5s , box-shadow 0.5s;
+    -ms-transition:  border 0.5s , box-shadow 0.5s;
+    -o-transition:  border 0.5s , box-shadow 0.5s;
 }
 .apple-section .apple-section-item:hover{
-    box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.25);
-    transition: all 0.6s;
-    -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    -ms-transition: all 0.6s;
-    -o-transition: all 0.6s;
-    
-  cursor: pointer;
-  }
+    border-top: 1px solid #c8b0b0 ;
+    border-left: 1px solid #c8b0b0 ;
+    box-shadow: 4px 8px 7px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 0.4s;
+    -webkit-transition: box-shadow 0.4s;
+    -moz-transition: box-shadow 0.4s;
+    -ms-transition: box-shadow 0.4s;
+    -o-transition: box-shadow 0.4s;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
 .apple-desc{
     font-size: 16px;
     font-family: serif;
