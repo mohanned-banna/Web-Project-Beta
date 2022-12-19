@@ -74,15 +74,14 @@ nav img{
     content: " ";
     display: block;
     height: 2px;
+    width: 0;
     background-color: white;
     transition: width 0.5s; 
 }
  header nav ul li:first-child a::after{
     width: 100%;
 }
-  header nav ul li a::after{
-    width: 0;
-}
+
  nav ul li a:hover:after{
    width: 100%;
 }
